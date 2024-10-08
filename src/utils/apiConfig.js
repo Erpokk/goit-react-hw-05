@@ -1,4 +1,4 @@
-const apiKey = import.meta.env.VITE_UNSPLASH_API_KEY;
+const apiKey = import.meta.env.VITE_TMDB_KEY;
 
 
 const getApiOptions =  {

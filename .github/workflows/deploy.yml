@@ -17,7 +17,7 @@ jobs:
           npm install
           npm run build
         env:
-          VITE_UNSPLASH_API_KEY: ${{ secrets.VITE_TMDB_KEY }}
+          VITE_TMDB_KEY: ${{ secrets.VITE_TMDB_KEY }}
 
       - name: Verify API Key
         run: echo "VITE_UNSPLASH_API_KEY=${{ secrets.VITE_TMDB_KEY }}"
