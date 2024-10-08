@@ -4,7 +4,7 @@ import getApiOptions from '../../src/utils/apiConfig.js'
 
 import usePagination from "../../src/hooks/usePagination";
 
-import css from './Homepage.module.css'
+import css from './HomePage.module.css'
 
 import MovieList from "../../src/components/MovieList/MovieList";
 import Pagination from "../../src/components/Pagination/Pagination";
