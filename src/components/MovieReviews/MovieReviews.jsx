@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import getApiOptions from '../../src/utils/apiConfig.js'
+import getApiOptions from '../../utils/apiConfig.js'
 
 import { useParams } from "react-router-dom";
 
