@@ -2,7 +2,7 @@ name: Build and deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   build-and-deploy:
@@ -17,10 +17,10 @@ jobs:
           npm install
           npm run build
         env:
-          VITE_UNSPLASH_API_KEY: ${{ secrets.VITE_UNSPLASH_API_KEY }}
+          VITE_UNSPLASH_API_KEY: ${{ secrets.VITE_TMDB_KEY }}
 
       - name: Verify API Key
-        run: echo "VITE_UNSPLASH_API_KEY=${{ secrets.VITE_UNSPLASH_API_KEY }}"
+        run: echo "VITE_UNSPLASH_API_KEY=${{ secrets.VITE_TMDB_KEY }}"
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.0
