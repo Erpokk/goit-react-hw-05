@@ -1,0 +1,17 @@
+.image {
+  width: 100%; /* Заполняет карточку по ширине */
+  height: 280px; /* Фиксированная высота для всех изображений */
+  border-radius: 8px;
+  object-fit: fill;
+}
+
+.castCard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+.accent {
+  color: orange;
+}
